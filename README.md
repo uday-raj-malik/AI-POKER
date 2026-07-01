@@ -1,4 +1,4 @@
-# MetaPokerBot 🃏
+# MetaPokerBot 
 
 An exploitative poker AI that dynamically models opponents and adapts its strategy to beat predictable bots.
 
@@ -46,18 +46,6 @@ MetaPokerBot makes decisions across five win probability tiers:
 | 35–50% | Bet or call; fold only to massive pressure |
 | 20–35% | Semi-bluff; exploit passives; call vs bluffers |
 | < 20% | Check or fold; blind steal vs passives |
-
----
-
-## Project Structure
-.
-├── poker.py            # Main bot logic (MetaPokerBot, OpponentProfile)
-├── player.py           # Base Player class and PlayerAction definitions
-├── card.py             # Card, Rank, Suit, and Deck abstractions
-├── hand_evaluator.py   # HandEvaluator and HandRank logic
-├── game.py             # PokerGame engine and GamePhase management
-├── baseplayers.py      # Reference bots (RaisePlayer, FoldPlayer, etc.)
-└── README.md
 
 ---
 
